@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Title -->
+  <title>Koncept Victoria</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon1.png">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <!-- Setup CSS -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Start of Website Body -->
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+
+  <!-- Navbar -->
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a href="#home" class="navbar-brand smooth-scroll">
+        <img src="img/koncept-logo-transparent.png" alt="logo">
+      </a>
+        <button class="navbar-toggler mr-4" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li><a href="index.html" class="active smooth-scroll">Home</a></li>
+          <li><a href="about.html" class="smooth-scroll">About</a></li>
+          <li><a href="products.html" class="smooth-scroll">Products</a></li>
+          <li><a href="#" class="smooth-scroll">Resources</a></li>
+          <li><a href="#" class="smooth-scroll">Contact Us<i class="fa fa-phone"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<!-- Google Map -->
+<section id="map">
+  map
+</section>
+
+
+  <!-- Heading -->
+  <section id="main-content">
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="horizontal-heading">
+              <h2>Contact Us</h2>
+              <img src="img/koncept-line.png" width="150" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+
+<!-- About Us Write Up -->
+
+<section id="contact-us">
+  <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-6">
+
+          <!-- Contact Left Side -->
+          <div id="contact-right">
+            <form action="">
+              <h4>Send Us a Message!</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name" id="name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email Address" id="email">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Phone Number" id="phone-number">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="subject" id="subject">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea name="message" class="form-control" id="message" placeholder="Message" cols="30" rows="8"></textarea>
+              </div>
+              <div id="submit-btn">
+                <a class="btn btn-primary" href="products.html" role="button"><span>Send Message</span></a>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+
+          <!-- Contact Right Side -->
+          <div id="contact-left">
+
+              <h2>Get In <strong>Touch </strong></h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, perferendis. Elit  Numquam, perferendis. </p>
+
+              <h3>Contact Information</h3>
+              <h4>Business Hours</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt neque cumque vel ut maxime harum ex, obcaecati quisquam magnam hic?</p>
+
+              <h4>Address</h4>
+              <p>We are located at <strong>1423 Cubert Avenue</strong></p>
+
+              <h4>Phone Number</h4>
+              <p>1-565-666-6666</p>
+
+              <h4>Email</h4>
+              <p>binder@konceptfixtures.ca</p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>
+          Copyright &copy; 2018. All Rights Reserved by <span>Koncept Fixtures.</span>
+        </h3>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- End of Website Body -->
+
+  <!-- Setup JS -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+
+  <!-- Google Maps JS -->
+  <script>
+  var marker;
+
+  function myMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 10,
+      center: {lat: 48.5, lng: -123.4},
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+
+    });
+
+    marker = new google.maps.Marker({
+      map: map,
+      draggable: true,
+      animation: google.maps.Animation.DROP,
+      position: {lat: 48.5, lng: -123.4}
+    });
+    marker.addListener('click', toggleBounce);
+  }
+
+  function toggleBounce() {
+    if (marker.getAnimation() !== null) {
+      marker.setAnimation(null);
+    } else {
+      marker.setAnimation(google.maps.Animation.BOUNCE);
+    }
+  }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd3lCTWTmeA1-3eYMm2A9j9dyVPwL9isA&callback=myMap"></script>
+
+</body>
+</html>
