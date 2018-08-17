@@ -151,7 +151,7 @@ Hero Banner
   left: 0;
   width: 100%;
   min-height: 820px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.15);
   z-index: 0; }
 
 #bar {
