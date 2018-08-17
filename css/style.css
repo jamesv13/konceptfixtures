@@ -137,7 +137,7 @@ Hero Banner
 ================================ */
 #hero-banner {
   /* The image used */
-  background-image: url("http://mysticvale.com/wp-content/uploads/2018/08/main-bg.jpg");
+  background-image: url('http://mysticvale.com/wp-content/uploads/2018/08/main-bg.jpg');
   /* Set a specific height */
   height: 700px;
   /* Create the parallax scrolling effect */
